@@ -1,0 +1,10 @@
+PREFIX hft: <https://w3id.org/shaolinpat/hft#>
+
+SELECT ?patient ?family ?given ?gender
+WHERE {
+    ?patient a hft:Patient ;
+             hft:familyName ?family ;
+             hft:givenName ?given ;
+             hft:gender ?gender .
+}
+ORDER BY ?family

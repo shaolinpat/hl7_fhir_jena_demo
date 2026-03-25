@@ -1,0 +1,10 @@
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix hft:  <https://w3id.org/shaolinpat/hft#> .
+
+hft:Patient_p1001
+    a hft:Patient ;
+    hft:identifier  "p1001" ;
+    hft:familyName  "Doe" ;
+    hft:givenName   "John" ;
+    hft:gender      "male" ;
+    hft:birthDate   "1970-01-01"^^xsd:date .

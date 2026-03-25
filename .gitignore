@@ -11,3 +11,4 @@ target/
 output/
 .vscode/
 plan.txt
+htmlReport/
